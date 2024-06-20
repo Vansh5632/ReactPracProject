@@ -1,0 +1,24 @@
+.main{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: solid 3px black;
+  align-items: center;
+  text-align: center;
+}
+.div1{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  padding: 3px;
+}
+
+.div1 input{
+  margin: 5px;
+  width: 70%;
+}
+.div1 button{
+  margin-top: 5px;
+}
